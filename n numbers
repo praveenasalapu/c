@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+{
+	int n,ele,i=1,l;
+	printf(" Enter the n value: ");
+	scanf("%d",&n);
+	while(i<=n)
+	{
+		scanf("%d",&ele);
+		if(i==1)
+		l=ele;
+		if(ele<l)
+		l=ele;
+		i++;
+	}
+	printf(" Enter lowest number: %d",l);
+}
